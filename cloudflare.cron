@@ -1,0 +1,5 @@
+MAILTO=<alert email address>
+SHELL=/usr/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+0 * * * * /bin/python3 /root/cloudflare.py
